@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: sans-serif;
+    /* background-color: #eee; */
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+
+.input{
+    width: 29.3rem;
+    height: 9rem;
+    font-size: 6rem;
+    background-color: orange;
+    border: none;
+    color-adjust: 10px;
+    padding-left: 10px;
+    color: #fff;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    overflow-x: scroll;
+}
+.btn,.btnDel,.btnEqual,.btnC,.Butn{
+    height: 60px;
+    width: 60px;  
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    
+    font-weight: bold;
+    transition: 1s ease;
+    transition-property:  background-color;
+    margin: 3px;
+    margin-top: 11px;
+}
+
+.btn:hover,.btnDel:hover,.btnEqual:hover,.btnC:hover,.Butn:hover{
+    background-color: orange;
+}
+
+
+.btnEqual{
+    background-color: orange;
+    color: #fff;
+}
+
+.btnEqual:hover{
+    color: black;
+}
