@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#screen{
+    background-color: black;
+    width: 3;
+    height: 70px;
+}
+
+
+#screen .screen1{
+    width: 336.5px;
+    height: 30px;
+    font-size: 18px;
+    color: #fff;
+    padding: 3px 0 0 6px;
+}
+
+#screen .screen2{
+    padding: 3px 0 0 6px;
+    font-size: 23px;
+    color: #fff;
+    width: 336.5px;
+    height: 40px;
+}
+
+#equal-btn,#allClear-btn{
+    background-color: red;
+}
+
+button{
+    background-color: rgb(18, 134, 18);
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    margin: 2.5px;
+    border: 5px dashed purple;
+    cursor: pointer;
+    font-size: 23px;
+    border-radius: 50%;
+}
+
+button:hover{
+    transform: scale(0.9);
+}
+
+
+
+
+
+@media screen and (max-width:480px){
+    
+    body{
+        min-height: 75vh;
+    }
+    .container{
+        margin-left: 0;
+        width: 300px;
+        height: 440px;
+    }
+
+    #screen{
+        margin-bottom: 15px;
+        width: 300px;
+    }
+
+    button{
+        width: 70px;
+        height: 70px;
+        margin: 0;
+    }
+}
